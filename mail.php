@@ -2,10 +2,10 @@
 //get data from form  
 
 $name = $_POST['name'];
-$email= $_POST['email'];
+$email= $_POST['emailaddress'];
 $message= $_POST['message'];
 $to = "youremail@mail.com";
-$subject = "Mail From website";
+$subject = "Mail From email index";
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message;
 $headers = "From: noreply@yoursite.com" . "\r\n" .
 "CC: somebodyelse@example.com";
