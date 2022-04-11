@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -13,10 +10,11 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-       <form action="" method="post">
+       <form action="contact-form" action ="contactform.php"method="post">
            <input type="text" name="name" placeholder="Your name">
            <input type="text" name="emailaddress" placeholder="Your Email address">
-           <input type="text" name="message" placeholder="Leave a comment">
+           <input type="text" name="mobilenumber" placeholder="Your mobile number">
+           <textarea type="text" name="message" placeholder="Leave a comment"></textarea>
            <button type="submit">SUBMIT MESSAGE</button>
        </form>
        
