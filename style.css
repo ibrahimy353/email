@@ -1,17 +1,24 @@
 body{   
-    background: white;  
+    
+    background-image: url("./background.jpg");
 }  
 #form{  
     border: solid gray 1px;  
     width:25%;  
     border-radius: 2px;  
     margin: 120px auto;  
-    background: white;  
-    padding: 50px;  
-}  
+    background: transparent;  
+    padding: 50px;
+    border-radius: 10%;
+    font-weight: white;
+    font-display: white;
+
+    
+}
 #btn{  
     color: #fff;  
     background: #337ab7;  
     padding: 7px;  
-    margin-left: 70%;  
+    margin-left: 70%; 
+    border-radius: 10%; 
 } 
