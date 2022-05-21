@@ -1,6 +1,11 @@
 body{   
     
     background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
 }  
 #form{  
     border: solid gray 1px;  
@@ -10,8 +15,7 @@ body{
     background: transparent;  
     padding: 50px;
     border-radius: 10%;
-    font-weight: white;
-    font-display: white;
+    font-size: 20px;
 
     
 }
